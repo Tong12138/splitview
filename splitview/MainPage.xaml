@@ -8,6 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <SplitView DisplayMode="CompactOverlay" CompactPaneLength="56" >
+            <SplitView.Pane>
+                <ListBox>wwwww
+                    <ListBoxItem Name="item1"  >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontSize="36" FontFamily="Segoe MDL2 Assests" Text="&#xE72D;" ></TextBlock>
+                            <TextBlock FontSize="20"></TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
+                    <ListBoxItem Name="Item2">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontSize="36" FontFamily="Segoe MDL2 Assests" Text="&#xE72D;" ></TextBlock>
+                            <TextBlock FontSize="20"></TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
 
+                </ListBox>
+            </SplitView.Pane>
+        </SplitView>
     </Grid>
 </Page>
